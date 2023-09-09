@@ -1,0 +1,1 @@
+document.querySelector(".menu").addEventListener("click", event=> document.querySelector(".nav-links").classList.toggle("mobile"))

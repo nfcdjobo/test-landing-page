@@ -1,0 +1,17 @@
+footer{ position:sticky; background-color: black; border-top: 1px solid rgb(255, 255, 255); border-bottom: 1px solid rgb(0, 0, 0);  background-color: rgb(0, 0, 0, .9); }
+div.footer-contact{ display: flex; justify-content: center; flex-wrap: wrap; width: 100%; margin: 20px auto 0; max-width: 1425px; }
+div.footer-contact div.our-address{ width: 320px; height: auto; margin: 10px; overflow: hidden; flex-shrink: 0; box-sizing: border-box; }
+footer div.copy-right{ display: flex; justify-content: center; margin:  auto; align-items: center; }
+footer div.copy-right i{ outline: none;  margin-top: 2rem; margin-bottom: .7rem; margin-left: auto; margin-right: auto; color: aliceblue; font-weight: bolder; }
+footer div.copy-right i a{ color: orange; }
+div.footer-contact div.our-address{cursor: pointer;}
+div.footer-contact div.our-address:hover{color: orange;}
+div.footer-contact div.our-address img{width: 30px; margin-left: 5px;}
+div.footer-contact div.our-address:nth-child(1)::after{ content: attr(title); margin-top: 5px; margin-left: 10px; color: white; font-weight: bold; top: 15px; transform: translateY(-55px);}
+div.footer-contact div.our-address:nth-child(2)::after{ content: attr(title); margin-top: 5px; margin-left: 10px; color: white; font-weight: bold; top: 15px; transform: translateY(-55px);}
+div.footer-contact div.our-address:nth-child(3)::after{ content: attr(title); margin-top: 5px; margin-left: 10px; color: white; font-weight: bold; top: 15px; transform: translateY(-55px);}
+div.footer-contact div.our-address:nth-child(4)::after{ content: attr(title); margin-top: 5px; margin-left: 10px; color: white; font-weight: bold; top: 15px; transform: translateY(-55px);}
+div.footer-contact div.our-address:nth-child(1):hover::after{border-bottom: 1px solid white;}
+div.footer-contact div.our-address:nth-child(2):hover::after{border-bottom: 1px solid white;}
+div.footer-contact div.our-address:nth-child(3):hover::after{border-bottom: 1px solid white;}
+div.footer-contact div.our-address:nth-child(4):hover::after{border-bottom: 1px solid white;}

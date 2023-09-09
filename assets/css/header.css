@@ -1,0 +1,32 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+html, body { font-family: 'Roboto', sans-serif; font-weight:400; }
+body { background: rgba(0, 0, 0, 0.9); }
+*{ margin: 0; padding: 0; text-decoration: none; list-style: none; }
+a:focus { outline:0px solid; }
+img { max-width:100%; height:auto; }
+h1, h2, h3, h4, h5, h6 { margin: 0 0 10px; font-weight:700; }
+a:active, a:hover, a:focus { outline: 0 none; text-decoration: none; }
+ul{ list-style: outside none none; margin: 0; padding: 0; }
+.nav-bar{ position: fixed; display: flex; align-items: center; padding: 1.5rem 5rem; justify-content: space-between; width: 100%; box-sizing: border-box; background-color: rgb(34, 0, 255);  border-bottom: 1px solid white; z-index: 1; }
+.nav-bar .logo img{ width: 6.5rem; }
+.nav-bar div.nav-links ul{ display: flex; }
+.nav-bar div.nav-links ul li{ margin: 0 1rem; }
+.nav-bar div.nav-links ul li a{ font-weight: bolder; color: white; padding: 0 6px; }
+.nav-bar div.nav-links ul li a:hover{  border-bottom: 2px solid rgb(255, 255, 255); border-left: 2px solid rgb(255, 255, 255); border-right: 2px solid rgb(255, 255, 255); padding: 0 4px; border-radius: 5px; }
+.nav-bar .menu{ display: none; position: absolute;  right: 0rem; width: 30px; margin: 5px;}
+
+@media screen and (max-width: 754px) {
+    .nav-bar{ padding: 0; }
+    .nav-bar a{ padding: 5px 2rem; }
+    .nav-bar .logo img{ width: 6.5rem; }
+    .nav-bar .menu{ display: block;  }
+    div.nav-links{ top: 0; left: 0 ; position: absolute; background-color: rgb(255, 166, 0, .5); backdrop-filter: blur(7px); width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; margin-left: -250%; }
+    div.nav-links.mobile{  transition: all .5s ease; margin-left: 0; }
+    div.nav-links ul{ display: flex; flex-direction: column; align-items: center; }
+    .nav-bar div.nav-links ul li{ margin: 1rem 2rem; }
+    .contenair{ top: 3rem; }
+}
+
+.icon-s{
+    color: #fff;
+}

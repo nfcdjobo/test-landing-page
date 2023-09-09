@@ -1,0 +1,82 @@
+/* .contenair{ margin: 0 auto; width: 90%; background-color: rgb(13, 12, 13); position:relative; top: 4.5rem; border: 2px solid orange; } */
+.contenair{ margin-bottom: 5rem; margin-top: 0rem; margin-left: auto; margin-right: auto; width: 95%; background-color: rgba(255, 255, 255); position:relative; top: 4.5rem; border-top: 1px solid rgb(255, 255, 255); border-bottom: 2px solid white; border-left: 2px solid blue; border-right: 2px solid blue;}
+.banniere{ background-image: url(../font/img2.jpg); background-size: cover; justify-content: center; background-repeat: no-repeat; align-items: center; text-align: center; width: 100%; height: 90vh;  animation: change_background_banniere2 infinite 40s;}
+.banniere .plateform{ font-weight: bolder; font-size: 4rem; font-family:magneto; padding-top: 8rem; color: white; -webkit-text-stroke: 2px; -webkit-text-stroke-color: rgb(34, 0, 255, .8); margin-top: 6rem;}
+
+
+.banniere .plateform span{ color: black; -webkit-text-stroke: 2px; -webkit-text-stroke-color: rgb(255, 255, 255); }
+.banniere .slogan{ padding-bottom: 8rem; font-size: 3rem; font-weight: 700; -webkit-text-stroke: .5px; -webkit-text-stroke-color: rgb(255, 255, 255); }
+
+@media screen and (max-width: 640px) {  .banniere .plateform{ font-size: 2.5rem; } .banniere .slogan{ font-size: 2rem; } }
+
+@media screen and (max-width: 400px) { .banniere .plateform{ font-size: 2rem; }.banniere .slogan{ font-size: 1.5rem; } }
+
+@media screen and (max-width: 318px) { .banniere .plateform{ font-size: 1.5rem; }.banniere .slogan{ font-size: 1rem; } }
+
+
+.banniere .slogan span{outline: none; color: white; -webkit-text-stroke: 1px; -webkit-text-stroke-color: rgb(34, 0, 255, .8); font-weight: bolder; font-family:magneto; }
+@keyframes change_background_banniere2 {
+    0%{ background-image: url(../font/img1.png); background-size: cover cover; }
+    15%{ /* background-image: url(../images/font/a-foutou.jpg); background-size: cover cover; */ }
+    25%{ background-image: url(../font/img2.jpg); background-size: cover cover; }
+    35%{ /* background-image: url(../images/font/a-foutou.jpg); background-size: cover cover; */ }
+    50%{ background-image: url(../font/img3.jpg); background-size: cover cover; }
+    65%{ /* background-image: url(../images/font/a-foutou.jpg); background-size: cover cover; */ }
+    75%{ background-image: url(../font/img1.png); background-size: cover cover; }
+    85%{ /* background-image: url(../images/font/a-foutou.jpg); background-size: cover cover; */ }
+    90%{ background-image: url(../font/img2.jpg); background-size: cover cover; }
+    100%{ /* background-image: url(../images/font/a-foutou.jpg); background-size: cover cover; */ }
+}
+
+.titles{ justify-content: center; align-items: center; text-align: center;  height: auto; margin-top: .2rem; padding: 1rem; }
+.titles .slogan{ font-size: 1.5rem; font-weight: 700; -webkit-text-stroke: .5px; -webkit-text-stroke-color: rgb(255, 255, 255); border: 3px solid rgb(255, 255, 255); padding: 1rem; }
+
+div.titles div.texto{ margin-top: 2rem; font-size: 1.5rem; font-weight: bolder; }
+
+div.titles button{ font-size: 1.2rem; font-weight: bolder; padding: .5rem; margin: 1rem; width: 200px; margin-bottom: 2rem;}
+div.titles button:hover{border: 2px solid rgb(0, 0, 0); color: rgb(0, 0, 0); cursor: pointer; border-radius: 10px;}
+
+div.titles#apropos{ background-color: rgb(103, 116, 227); padding-top: 2rem; }
+
+div.titles div.texto{ display: flex; width: 100%; max-width: 1525px; grid-template-columns: repeat(2, 1fr); flex-wrap: wrap; justify-content: center; overflow: hidden; margin: 2rem auto; }
+
+div.titles div.texto div.know-more{ width: 650px; margin: 20px; }
+
+div.titles div.texto div.know-more:nth-child(2){ color: #fff; padding-top: 4rem; font-size: 2.5rem; }
+
+div.titles div.texto div.know-more img{width: 100%; height: 300px; }
+
+@media screen and (max-width: 570px) { .contenair{ top: 3.1rem; } }
+
+div.our-services{ display: flex; justify-content: center; position: relative; flex-wrap: wrap;width: 100%;margin: 20px auto 0;max-width: 1425px;background-color: rgb(233, 216, 186); margin-bottom: 2rem; }
+
+div.item-services{ background-color:azure; width: 320px; height: auto; margin: 10px; overflow: hidden;flex-shrink: 0;box-shadow: .1px .1px 1px 1px rgb(0, 0, 0, .7);border-radius: 1rem;border: 2px solid white; text-align: center; }
+
+@media screen and (max-width: 1528px) { div.item-services{ width: 600px;} }
+
+@media screen and (max-width: 1384px) { div.item-services{ width: 500px;} }
+
+@media screen and (max-width: 934px) { div.item-services{ width: 400px;} }
+
+@media screen and (max-width: 1162px) { div.item-services{ width: 320px;} }
+
+@media screen and (max-width: 764px) { div.item-services{ width: 260px;} }
+
+@media screen and (max-width: 626px) { div.item-services{ width: 98%;} }
+
+@media screen and (max-width: 505px) { div.item-services{ width: 95%;} }
+
+div.item-services img{ position: relative; width: 100%; height: 200px; }
+div.item-services:hover img{ position: relative; width: 100%; height: 160px; }
+div.item-services:hover{ background: linear-gradient(to left,#3763eb 0%,#6f58e8 50.39%,#3763eb 100%); cursor: default; }
+
+div.item-services h4{ color: rgb(26, 62, 206); margin: .5rem; margin-bottom: 1rem; }
+
+div.item-services:hover h4{ color: white; }
+
+div.item-services button{ display: none; }
+
+div.item-services button:hover{ border: none; box-shadow: .1px .1px 1px 1px rgba(255, 255, 255); cursor: pointer; }
+
+div.item-services:hover button{ display:flex; outline: none; padding: 10px 1rem; margin: 0 auto; margin-bottom: 1rem; height: 2.5rem; font-size: 1rem; font-weight: bolder; background-color: white; }
+
