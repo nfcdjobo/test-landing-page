@@ -31,12 +31,15 @@
 .titles{ justify-content: center; align-items: center; text-align: center;  height: auto; margin-top: .2rem; padding: 1rem; }
 .titles .slogan{ font-size: 1.5rem; font-weight: 700; -webkit-text-stroke: .5px; -webkit-text-stroke-color: rgb(255, 255, 255); border: 3px solid rgb(255, 255, 255); padding: 1rem; }
 
+
+
 div.titles div.texto{ margin-top: 2rem; font-size: 1.5rem; font-weight: bolder; }
 
-div.titles button{ font-size: 1.2rem; font-weight: bolder; padding: .5rem; margin: 1rem; width: 200px; margin-bottom: 2rem;}
+div.titles button{ font-size: 1.2rem; font-weight: bolder; padding: .5rem; margin: 1rem; width: 200px; margin-bottom: 5rem;}
 div.titles button:hover{border: 2px solid rgb(0, 0, 0); color: rgb(0, 0, 0); cursor: pointer; border-radius: 10px;}
 
-div.titles#apropos{ background-color: rgb(103, 116, 227); padding-top: 2rem; }
+div.titles#apropos{ background-color: rgb(103, 116, 227); padding-top: 2rem; margin-bottom: 2rem;}
+
 
 div.titles div.texto{ display: flex; width: 100%; max-width: 1525px; grid-template-columns: repeat(2, 1fr); flex-wrap: wrap; justify-content: center; overflow: hidden; margin: 2rem auto; }
 
@@ -48,7 +51,7 @@ div.titles div.texto div.know-more img{width: 100%; height: 300px; }
 
 @media screen and (max-width: 570px) { .contenair{ top: 3.1rem; } }
 
-div.our-services{ display: flex; justify-content: center; position: relative; flex-wrap: wrap;width: 100%;margin: 20px auto 0;max-width: 1425px;background-color: rgb(233, 216, 186); margin-bottom: 2rem; }
+div.our-services{ display: flex; justify-content: center; position: relative; flex-wrap: wrap;width: 100%;margin: 20px auto 0;max-width: 1425px; margin-bottom: 2rem; }
 
 div.item-services{ background-color:azure; width: 320px; height: auto; margin: 10px; overflow: hidden;flex-shrink: 0;box-shadow: .1px .1px 1px 1px rgb(0, 0, 0, .7);border-radius: 1rem;border: 2px solid white; text-align: center; }
 
@@ -77,6 +80,8 @@ div.item-services:hover h4{ color: white; }
 div.item-services button{ display: none; }
 
 div.item-services button:hover{ border: none; box-shadow: .1px .1px 1px 1px rgba(255, 255, 255); cursor: pointer; }
+
+div.titles span#service{border: 3px solid rgb(103, 116, 227);}
 
 div.item-services:hover button{ display:flex; outline: none; padding: 10px 1rem; margin: 0 auto; margin-bottom: 1rem; height: 2.5rem; font-size: 1rem; font-weight: bolder; background-color: white; }
 
